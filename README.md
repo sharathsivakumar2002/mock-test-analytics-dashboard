@@ -26,3 +26,6 @@ A JavaScript-based analytics dashboard that helps students analyze mock test per
 
 ## ▶️ How to Run
 Open `index.html` in browser.
+
+##Live Link(demo)
+https://quiet-nasturtium-0941f8.netlify.app/
