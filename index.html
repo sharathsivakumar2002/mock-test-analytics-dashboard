@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test Analytics Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📊 Mock Test Analytics Dashboard</h1>
+
+        <div class="form-section">
+
+            <input type="text" id="subject" placeholder="Subject">
+
+            <input type="number" id="correct" placeholder="Correct Answers">
+
+            <input type="number" id="wrong" placeholder="Wrong Answers">
+
+            <input type="number" id="unanswered" placeholder="Unanswered">
+
+            <button id="addTestBtn">Add Test</button>
+
+        </div>
+
+        <div class="stats-section">
+
+            <div class="card">
+                <h2 id="totalTests">0</h2>
+                <p>Total Tests</p>
+            </div>
+
+            <div class="card">
+                <h2 id="avgAccuracy">0%</h2>
+                <p>Average Accuracy</p>
+            </div>
+
+            <div class="card">
+                <h2 id="negativeMarks">0</h2>
+                <p>Negative Marks</p>
+            </div>
+
+        </div>
+
+        <div class="chart-container">
+            <canvas id="performanceChart"></canvas>
+        </div>
+
+        <div class="history-section">
+
+            <h2>Test History</h2>
+
+            <ul id="historyList"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
